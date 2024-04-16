@@ -55,5 +55,3 @@ plt.title('Domestic Energy Production in Egypt (2021)')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
-
-
