@@ -56,21 +56,34 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
 
+# Read the CSV file for domestic energy production
+df_domestic_energy = pd.read_csv('International Energy Agency - Domestic energy production, Egypt, 2021.csv')
+
+# Plot the bar chart for domestic energy production
+plt.figure(figsize=(10, 6), dpi=300)
+plt.bar(df_domestic_energy['Domestic energy production, Egypt, 2021'], df_domestic_energy['Value'], color='skyblue')
+
+plt.xlabel('Type')
+plt.ylabel('Energy Production (TJ)')
+plt.title('Domestic Electricity Generation in Egypt (2021)')
+
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+
 # Read the CSV file for per capita electricity source
 df_per_capita = pd.read_csv('C:/Users/user/OneDrive/Documents/Advanced Willy/Final Data/Presentation/solaregypt/per-capita-electricity-source-stacked.csv')
 
 # Filter data for Egypt
 df_per_capita_egypt = df_per_capita[df_per_capita['Entity'] == 'Egypt']
 
-# Create pivot table for per capita electricity source
-pivot_per_capita = df_per_capita_egypt.pivot_table(values=df_per_capita_egypt.columns[2:], index='Year', aggfunc='sum')
-
-# Plot the pivot table for per capita electricity source
+# Plot the bar chart for per capita electricity source
 plt.figure(figsize=(12, 6), dpi=300)
-pivot_per_capita.plot(kind='bar', stacked=True)
-plt.title('Per Capita Electricity Source in Egypt')
+plt.bar(df_per_capita_egypt['Year'], df_per_capita_egypt.iloc[:, 2:].sum(axis=1), color='skyblue')
+
 plt.xlabel('Year')
 plt.ylabel('Per Capita Electricity (kWh)')
-plt.legend(title='Electricity Source')
+plt.title('Per Capita Electricity Source in Egypt')
 plt.tight_layout()
 plt.show()
