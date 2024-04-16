@@ -56,6 +56,21 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
 
-Per_Capita = pd.read_csv('C:\Users\user\OneDrive\Documents\Advanced Willy\Final Data\Presentation\solaregypt\per-capita-electricity-source-stacked.csv')
+# Read the CSV file for per capita electricity source
+df_per_capita = pd.read_csv('C:/Users/user/OneDrive/Documents/Advanced Willy/Final Data/Presentation/solaregypt/per-capita-electricity-source-stacked.csv')
 
-pivot2 = Per_Capita.pivot_table(values= Per_Capita, index=["Entity" == "Egypt"], aggfunc='sum')
+# Filter data for Egypt
+df_per_capita_egypt = df_per_capita[df_per_capita['Entity'] == 'Egypt']
+
+# Create pivot table for per capita electricity source
+pivot_per_capita = df_per_capita_egypt.pivot_table(values=df_per_capita_egypt.columns[2:], index='Year', aggfunc='sum')
+
+# Plot the pivot table for per capita electricity source
+plt.figure(figsize=(12, 6), dpi=300)
+pivot_per_capita.plot(kind='bar', stacked=True)
+plt.title('Per Capita Electricity Source in Egypt')
+plt.xlabel('Year')
+plt.ylabel('Per Capita Electricity (kWh)')
+plt.legend(title='Electricity Source')
+plt.tight_layout()
+plt.show()
