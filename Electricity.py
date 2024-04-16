@@ -46,9 +46,9 @@ df = pd.read_csv('International Energy Agency - Domestic energy production, Egyp
 
 # Plot
 plt.figure(figsize=(10, 6), dpi=300)
-plt.bar(df['Year'], df['Value'], color='skyblue')
+plt.bar(df['Domestic energy production, Egypt, 2021'], df['Value'], color='skyblue')
 
-plt.xlabel('Year')
+plt.xlabel('Type')
 plt.ylabel('Energy Production (TJ)')
 plt.title('Domestic Energy Production in Egypt (2021)')
 
