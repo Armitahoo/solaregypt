@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the data
-Energy_data = pd.read_csv("C:/Users/user/OneDrive/Documents/Advanced Willy/GitHub/Final/owid-energy-data.csv")
+Energy_data = pd.read_csv("C:/Users/user/OneDrive/Documents/Advanced Willy/Final Data/Presentation/solaregypt/owid-energy-data.csv")
 
 # Filter data for Egypt
 egypt_data = Energy_data.loc[Energy_data['country'] == 'Egypt', ['year', 'biofuel_electricity', 'coal_electricity', 'gas_electricity', 'hydro_electricity', 
