@@ -50,8 +50,12 @@ plt.bar(df['Domestic energy production, Egypt, 2021'], df['Value'], color='skybl
 
 plt.xlabel('Type')
 plt.ylabel('Energy Production (TJ)')
-plt.title('Domestic Energy Production in Egypt (2021)')
+plt.title('Domestic Electricity generation in Egypt (2021)')
 
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
+
+Per_Capita = pd.read_csv('C:\Users\user\OneDrive\Documents\Advanced Willy\Final Data\Presentation\solaregypt\per-capita-electricity-source-stacked.csv')
+
+pivot2 = Per_Capita.pivot_table(values= Per_Capita, index=["Entity" == "Egypt"], aggfunc='sum')
