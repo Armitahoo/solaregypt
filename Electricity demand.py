@@ -16,7 +16,7 @@ egypt_data.dropna(inplace=True)
 # Create pivot table for the specified columns
 new_pivot = egypt_data.pivot_table(values=['electricity_demand', 'electricity_generation', 'electricity_share_energy', 'per_capita_electricity'], index='year', aggfunc='sum')
 
-
+new_pivot.to_csv('egypt_electricity_metrics.csv', index=False)
 
 # Plot the electricity demand per capita
 plt.figure(figsize=(12, 6), dpi=300)
