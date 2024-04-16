@@ -41,3 +41,19 @@ plt.tight_layout()
 plt.show()
 
 
+# Read the CSV file
+df = pd.read_csv('International Energy Agency - Domestic energy production, Egypt, 2021.csv')
+
+# Plot
+plt.figure(figsize=(10, 6), dpi=300)
+plt.bar(df['Year'], df['Value'], color='skyblue')
+
+plt.xlabel('Year')
+plt.ylabel('Energy Production (TJ)')
+plt.title('Domestic Energy Production in Egypt (2021)')
+
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+
