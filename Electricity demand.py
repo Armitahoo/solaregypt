@@ -27,3 +27,4 @@ plt.ylabel('Electricity Demand per Capita (kWh)')
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
