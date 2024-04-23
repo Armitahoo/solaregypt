@@ -66,3 +66,9 @@ ave_cost = (total_energy_2021*electricity_price)
 rounded_ave = round(ave_cost, 2)
 
 print("\nThe Average Cost of Electricity Per Capita (USD/kWh):", rounded_ave)
+
+Externality = 10000
+
+ave_cost_ex = rounded_ave + Externality
+
+print("\n The Average Cost plus the cost related to unhealthy externalities of Air Polution per capita:", ave_cost_ex)
