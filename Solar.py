@@ -45,7 +45,9 @@ total_installation_cost = required_capacity * installation_cost_per_kw  # in USD
 
 print("\nThe total installation cost for year 2030 is:", round(total_installation_cost,2))
 
-net = total_installation_cost+present_value
+present_value = total_installation_cost / ((1 + interest_rate) ** lifespan)
+
+net = present_value+present_value
 
 print("\nNet Present value for CSP:", round(net))
 
@@ -53,12 +55,13 @@ Total_pro = 55.53 * population
 print("\nTotal production cost with current methods:", round(Total_pro))
 
 total_w_ex = 1055 * population
-print("\nTotal production with externalities:", round(total_w_ex))
+print("\nTotal production cost with externalities:", round(total_w_ex))
 
 PV = Total_pro* ((1 - (1 + interest_rate) ** -lifespan) / interest_rate)
+PV1 = total_w_ex* ((1 - (1 + interest_rate) ** -lifespan) / interest_rate)
 
 print(PV)
-
+print(PV1)
 
 
 
