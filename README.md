@@ -36,7 +36,7 @@ To calculate the break-even point, the key concept is the Present Value (PV), wh
 Here's a breakdown of how we calculated the break-even point in this case:
 ### Present Value Formula:
 The formula for the present value of an annuity is:
-+ 𝑃𝑉= $𝐶×((1−(1+𝑟)^(−𝑛))/𝑟)$
++ 𝑃𝑉= $𝐶×((1−(1+𝑟)^-n)/𝑟)$
 + C is the annual cash flow, 𝑟r is the discount rate (or interest rate), and n is the number of years.
 ### Equating the Present Values:
 + We wanted to find out at what point the PV of solar equals the PV of the current production method.
