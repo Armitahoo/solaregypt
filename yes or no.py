@@ -31,7 +31,10 @@ break_even_time = sp.solve(PV_current_expr - PV_CSP, t)
 
 break_even_time = "Not Viable" if sp.im(break_even_time[0]) != 0 else break_even_time[0]
 
-print(break_even_time)  
+print(break_even_time) 
+
+Year_of_Change = 2023+19
+print("\nThe year that we could shift to electricity generation by CSP is: ", Year_of_Change) 
 
 # Present Value of current production cost without externalities
 PV_current_expr_without_externalities = total_production_cost * ((1 - (1 + interest_rate) ** -t) / interest_rate)
