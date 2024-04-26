@@ -23,11 +23,11 @@ from [here](https://helioscsp.com/cost-of-concentrated-solar-power-csp-projects-
 The present value represents the current worth of a future amount, taking into account a specific discount rate or interest rate. This concept is useful for understanding the value of money over time, acknowledging that a dollar today is worth more than a dollar in the future due to factors like inflation, risk, and opportunity costs.
 ### Present Value Formula
 The general formula for calculating the present value of a future sum is:
-𝑃𝑉=𝐹𝑉(1+𝑟)𝑛PV=(1+r)nFV
-PV is the present value.
-FV is the future value—the sum you're considering.
-r is the interest rate (expressed as a decimal).
-n is the number of periods (often years) into the future.
++ 𝑃𝑉=𝐹𝑉(1+𝑟)𝑛PV=(1+r)nFV
++ PV is the present value.
++ FV is the future value—the sum you're considering.
++ r is the interest rate (expressed as a decimal).
++ n is the number of periods (often years) into the future.
 
 ## 	[Computed the break-even point](https://github.com/Armitahoo/solaregypt/blob/main/yes%20or%20no.py)
 To calculate the break-even point, the key concept is the Present Value (PV), which helps determine the value of a future cash flow today by considering the time value of money and the interest rate.
