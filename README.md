@@ -46,7 +46,7 @@ The formula for the present value of an annuity is:
 + We used a symbolic algebra library to solve for 𝑡t when the PV of the current method (with or without externalities) becomes equal to the PV of the CSP installation.
 + If the solution has imaginary numbers, it suggests that a break-even point doesn't occur within a realistic time frame, making it "Not Viable."
 ### These steps led us to conclude that:
-+ The break-even point with externalities is about 1.74 years.
++ The break-even point with externalities is about 18.5 years.
 + The break-even point without externalities isn't viable, indicating that the CSP installation would not break even with the current method within a reasonable timeframe.
 # Conclusion: Shining a Light on Egypt's Energy Future
 The analysis outlined above reveals a compelling case for Egypt to shift from fossil fuels to renewable energy sources, particularly solar power, to generate electricity. This shift is crucial not only from an economic perspective but also for public health and environmental sustainability.
@@ -59,7 +59,7 @@ The reliance on fossil fuels for electricity generation has significant external
 + Lost Working Days: Poor air quality results in lost productivity and working days due to sickness and related health issues.
   
 ## Economic and Environmental Incentives
-Given these high externalities, the transition to renewable energy, especially solar power, becomes economically and environmentally advantageous. The data suggests that Egypt could achieve a break-even point with solar energy by 2032, considering the present value and cost of Concentrated Solar Power (CSP) installations.
+Given these high externalities, the transition to renewable energy, especially solar power, becomes economically and environmentally advantageous. The data suggests that Egypt could achieve a break-even point with solar energy by 2049, considering the present value and cost of Concentrated Solar Power (CSP) installations.
 
 ## Benefits of Transitioning to Solar Energy
 + Reduced Air Pollution: Switching to solar power significantly reduces air pollution, improving public health and reducing healthcare costs.
