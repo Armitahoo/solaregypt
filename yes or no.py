@@ -6,7 +6,7 @@ interest_rate = 0.05
 
 # Given values
 total_production_cost = 6719130000  # Current production cost
-total_with_externalities = 127655000000  # Production cost with externalities
+total_with_externalities = 17424000000  # Production cost with externalities
 
 # Present Value formula
 # C = Total annualized cost
