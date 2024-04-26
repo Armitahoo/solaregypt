@@ -52,7 +52,7 @@ print("\nNet Present value for CSP:", round(net))
 Total_pro = 55.53 * population
 print("\nTotal production cost with current methods:", round(Total_pro))
 
-total_w_ex = 1055 * population
+total_w_ex = 144 * population
 print("\nTotal production cost with externalities:", round(total_w_ex))
 
 PV = Total_pro* ((1 - (1 + interest_rate) ** -lifespan) / interest_rate)
