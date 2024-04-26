@@ -9,7 +9,7 @@ If you want to take a look at the raw data you can find them [here](https://gith
 ## Made charts
 After successfully filtering the data, I made the charts illustrated below to present the energy situation in Egypt.
 ![Chart1](https://github.com/Armitahoo/solaregypt/blob/main/Production.png)
-![Chart2](https://github.com/Armitahoo/solaregypt/blob/main/Fuel%20Type.png)
+![Chart2](https://github.com/Armitahoo/solaregypt/blob/main/Electricity.png)
 ## [Computed information about electricity](https://github.com/Armitahoo/solaregypt/blob/main/Electricity%20demand.py)
 I gathered information about [electricity price](https://www.global-climatescope.org/markets/eg/) and [subsidization](https://www.tni.org/en/article/the-imf-and-ending-energy-subsidies-in-egypt) in Egypt after making the charts. Then, I computed the total electricity cost per capita based on the total electricity produced per capita. 
 ## Gathered information about externalities 
@@ -46,7 +46,7 @@ The formula for the present value of an annuity is:
 + We used a symbolic algebra library to solve for 𝑡t when the PV of the current method (with or without externalities) becomes equal to the PV of the CSP installation.
 + If the solution has imaginary numbers, it suggests that a break-even point doesn't occur within a realistic time frame, making it "Not Viable."
 ### These steps led us to conclude that:
-+ The break-even point with externalities is about 1.74 years.
++ The break-even point with externalities is about 18.5 years.
 + The break-even point without externalities isn't viable, indicating that the CSP installation would not break even with the current method within a reasonable timeframe.
 # Conclusion: Shining a Light on Egypt's Energy Future
 The analysis outlined above reveals a compelling case for Egypt to shift from fossil fuels to renewable energy sources, particularly solar power, to generate electricity. This shift is crucial not only from an economic perspective but also for public health and environmental sustainability.
@@ -59,7 +59,7 @@ The reliance on fossil fuels for electricity generation has significant external
 + Lost Working Days: Poor air quality results in lost productivity and working days due to sickness and related health issues.
   
 ## Economic and Environmental Incentives
-Given these high externalities, the transition to renewable energy, especially solar power, becomes economically and environmentally advantageous. The data suggests that Egypt could achieve a break-even point with solar energy by 2032, considering the present value and cost of Concentrated Solar Power (CSP) installations.
+Given these high externalities, the transition to renewable energy, especially solar power, becomes economically and environmentally advantageous. The data suggests that Egypt could achieve a break-even point with solar energy by 2049, considering the present value and cost of Concentrated Solar Power (CSP) installations.
 
 ## Benefits of Transitioning to Solar Energy
 + Reduced Air Pollution: Switching to solar power significantly reduces air pollution, improving public health and reducing healthcare costs.
@@ -67,7 +67,7 @@ Given these high externalities, the transition to renewable energy, especially s
 + Long-Term Cost Savings: The break-even point analysis indicates that solar power can become more cost-effective than traditional fossil fuel-based methods, especially when externalities are considered.
 
 ## Moving Forward
-The roadmap to transition to renewable energy by 2032 involves continued investment in solar power infrastructure, policies to incentivize renewable energy adoption, and public awareness campaigns about the benefits of clean energy. With proper planning and execution, Egypt can lead the way in adopting sustainable energy practices, ultimately improving public health and reducing environmental impacts.
+The roadmap to transition to renewable energy by 2049 involves continued investment in solar power infrastructure, policies to incentivize renewable energy adoption, and public awareness campaigns about the benefits of clean energy. With proper planning and execution, Egypt can lead the way in adopting sustainable energy practices, ultimately improving public health and reducing environmental impacts.
 
 ## Conclusion
 Given the substantial externalities associated with fossil fuels and the positive impact of renewable energy, Egypt should prioritize solar power for its electricity generation. This shift is not only feasible but also necessary for the country's health, environment, and economy.
