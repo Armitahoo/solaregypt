@@ -66,7 +66,7 @@ Given these high externalities, the transition to renewable energy, especially s
 + Long-Term Cost Savings: The break-even point analysis indicates that solar power can become more cost-effective than traditional fossil fuel-based methods, especially when externalities are considered.
 
 ## Moving Forward
-The roadmap to transition to renewable energy by 2049 involves continued investment in solar power infrastructure, policies to incentivize renewable energy adoption, and public awareness campaigns about the benefits of clean energy. With proper planning and execution, Egypt can lead the way in adopting sustainable energy practices, ultimately improving public health and reducing environmental impacts.
+Given the projected break-even point (2049), Egypt can focus on investment in solar infrastructure, policy incentives, and public awareness to facilitate the transition to renewable energy. The journey to renewable energy is not only about recovering costs but also about establishing a sustainable and healthier future.
 
 ## Conclusion
-Given the substantial externalities associated with fossil fuels and the positive impact of renewable energy, Egypt should prioritize solar power for its electricity generation. This shift is not only feasible but also necessary for the country's health, environment, and economy.
+Considering the externalities and long-term benefits, Egypt should prioritize solar power for electricity generation. By the break-even point in 2049, the transition to renewable energy becomes economically advantageous, making it a beneficial and necessary shift for the country's health, environment, and economy.
