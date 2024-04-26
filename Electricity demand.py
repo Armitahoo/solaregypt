@@ -67,7 +67,7 @@ rounded_ave = round(ave_cost, 2)
 
 print("\nThe Average Cost of Electricity Per Capita (USD/kWh):", rounded_ave)
 
-Externality = 1000
+Externality = 89
 
 ave_cost_ex = rounded_ave + Externality
 
