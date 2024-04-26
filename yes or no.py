@@ -29,6 +29,8 @@ PV_current_expr = total_with_externalities * ((1 - (1 + interest_rate) ** -t) / 
 # Solve for t when the present value of CSP is equal to the present value of current methods with externalities
 break_even_time = sp.solve(PV_current_expr - PV_CSP, t)
 
+break_even_time = "Not Viable" if sp.im(break_even_time[0]) != 0 else break_even_time[0]
+
 print(break_even_time)  
 
 # Present Value of current production cost without externalities
@@ -37,7 +39,7 @@ PV_current_expr_without_externalities = total_production_cost * ((1 - (1 + inter
 # Solve for t when the present value of CSP is equal to the present value of current methods without externalities
 break_even_time_without_externalities = sp.solve(PV_current_expr_without_externalities - PV_CSP, t)
 
-break_even_time_without_externalities  # Time at which the present values are equal
+break_even_time_without_externalities
 
 # Determine if break-even point exists for present value of current production without externalities
 # If there is an imaginary part, return "Not Viable"
