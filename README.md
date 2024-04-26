@@ -1,4 +1,4 @@
-# solaregypt
+# Solar Egypt
 Shining a Light on Egypt's Energy Future: Transitioning from Fossil Fuels to Solar Power
 # The process of this analysis
 ##	Data Collection
