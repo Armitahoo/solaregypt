@@ -9,7 +9,7 @@ If you want to take a look at the raw data you can find them [here](https://gith
 ## Made charts
 After successfully filtering the data, I made the charts illustrated below to present the energy situation in Egypt.
 ![Chart1](https://github.com/Armitahoo/solaregypt/blob/main/Production.png)
-![Chart2](https://github.com/Armitahoo/solaregypt/blob/main/Fuel%20Type.png)
+![Chart2](https://github.com/Armitahoo/solaregypt/blob/main/Electricity.png)
 ## [Computed information about electricity](https://github.com/Armitahoo/solaregypt/blob/main/Electricity%20demand.py)
 I gathered information about [electricity price](https://www.global-climatescope.org/markets/eg/) and [subsidization](https://www.tni.org/en/article/the-imf-and-ending-energy-subsidies-in-egypt) in Egypt after making the charts. Then, I computed the total electricity cost per capita based on the total electricity produced per capita. 
 ## Gathered information about externalities 
