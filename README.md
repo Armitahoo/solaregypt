@@ -1,8 +1,6 @@
 # Solar Egypt
 Shining a Light on Egypt's Energy Future: Transitioning from Fossil Fuels to Solar Power
 
-$p^d$
-
 # The process of this analysis
 ##	Data Collection
 First, I wanted to know how Egypt generates electricity and how much of it is from fossil fuel. So I got the data I needed from [here](https://ourworldindata.org/energy) and [here]( https://www.iea.org/countries/egypt)
@@ -27,8 +25,7 @@ from [here](https://helioscsp.com/cost-of-concentrated-solar-power-csp-projects-
 The present value represents the current worth of a future amount, taking into account a specific discount rate or interest rate. This concept is useful for understanding the value of money over time, acknowledging that a dollar today is worth more than a dollar in the future due to factors like inflation, risk, and opportunity costs.
 ### Present Value Formula
 The general formula for calculating the present value of a future sum is:
-+ 𝑃𝑉=𝐹𝑉(1+𝑟)𝑛
-+ PV=(1+r)nFV
++ $𝑃𝑉=𝐹𝑉/(1+𝑟)^𝑛$
 + PV is the present value.
 + FV is the future value—the sum you're considering.
 + r is the interest rate (expressed as a decimal).
@@ -39,8 +36,7 @@ To calculate the break-even point, the key concept is the Present Value (PV), wh
 Here's a breakdown of how we calculated the break-even point in this case:
 ### Present Value Formula:
 The formula for the present value of an annuity is:
-+ 𝑃𝑉=𝐶×(1−(1+𝑟)−𝑛𝑟)
-+ PV=C×(r1−(1+r)−n)
++ $𝑃𝑉=𝐶×((1−(1+𝑟)^−𝑛)/𝑟)$
 + C is the annual cash flow, 𝑟r is the discount rate (or interest rate), and n is the number of years.
 ### Equating the Present Values:
 + We wanted to find out at what point the PV of solar equals the PV of the current production method.
