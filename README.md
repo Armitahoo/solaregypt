@@ -19,7 +19,7 @@ from [here](https://aps.aucegypt.edu/en/articles/767/the-social-impact-of-air-po
 ## [Made the heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.qgz )
 I collected data about solar power potential from Global Solar Atlas and made the illustrated heatmap below.
 
-![Heatmap]([https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.png](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.png)
+![Heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.png)
 ## Gathered information about the cost of CSP 
 from [here](https://helioscsp.com/cost-of-concentrated-solar-power-csp-projects-fell-from-usd-0-38-kwh-to-usd-0-118-kwh-a-decline-of-69/#:~:text=Between%202010%20and%202022%2C%20the%20to%20USD%200.118%2FkWh)
 ## [Computed the cost of installation and net present value](https://github.com/Armitahoo/solaregypt/blob/main/Solar.py)
