@@ -18,9 +18,10 @@ I gathered information about [electricity price](https://www.global-climatescope
 from [here](https://aps.aucegypt.edu/en/articles/767/the-social-impact-of-air-pollution-in-egypt-the-contradictions-of-environmental-policy-in-egypt) and [here](https://www.greenpeace.org/static/planet4-southeastasia-stateless/2020/02/21b480fa-toxic-air-report-110220.pdf) and took the information into account for total cost calculation
 ## [Made the heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.qgz )
 I collected data about solar power potential from Global Solar Atlas and made the illustrated heatmap below.
-heatmap
+![Heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.png)
 ## Gathered information about the cost of CSP 
 from [here](https://helioscsp.com/cost-of-concentrated-solar-power-csp-projects-fell-from-usd-0-38-kwh-to-usd-0-118-kwh-a-decline-of-69/#:~:text=Between%202010%20and%202022%2C%20the%20to%20USD%200.118%2FkWh)
+![Heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.png)
 ## [Computed the cost of installation and net present value](https://github.com/Armitahoo/solaregypt/blob/main/Solar.py)
 The present value represents the current worth of a future amount, taking into account a specific discount rate or interest rate. This concept is useful for understanding the value of money over time, acknowledging that a dollar today is worth more than a dollar in the future due to factors like inflation, risk, and opportunity costs.
 ### Present Value Formula
