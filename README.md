@@ -25,6 +25,7 @@ I collected data about solar power potential from Global Solar Atlas and made th
 from [here](https://helioscsp.com/cost-of-concentrated-solar-power-csp-projects-fell-from-usd-0-38-kwh-to-usd-0-118-kwh-a-decline-of-69/#:~:text=Between%202010%20and%202022%2C%20the%20to%20USD%200.118%2FkWh)
 ## [Computed the cost of installation and net present value](https://github.com/Armitahoo/solaregypt/blob/main/Solar.py)
 The present value represents the current worth of a future amount, taking into account a specific discount rate or interest rate. This concept is useful for understanding the value of money over time, acknowledging that a dollar today is worth more than a dollar in the future due to factors like inflation, risk, and opportunity costs.
+Two important aspects of this calculations are the capacity factor and the life span. Since the efficiency of the CSP is only 25% in most cases of its utilization, I have taken this percent into account. Also, based on previous studies, each plant is capable of being maintained for 30 years and that is why here the life span is set to 30 years. 
 ### Present Value Formula
 The general formula for calculating the present value of a future sum is:
 + 𝑃𝑉= $𝐹𝑉/(1+𝑟)^𝑛$
@@ -34,7 +35,7 @@ The general formula for calculating the present value of a future sum is:
 + n is the number of periods (often years) into the future.
 
 ## 	[Computed the break-even point](https://github.com/Armitahoo/solaregypt/blob/main/yes%20or%20no.py)
-To calculate the break-even point, the key concept is the Present Value (PV), which helps determine the value of a future cash flow today by considering the time value of money and the interest rate.
+To calculate the break-even point, the key concept is the Present Value (PV), which helps determine the value of a future cash flow today by considering the time value of money and the interest rate. 
 Here's a breakdown of how we calculated the break-even point in this case:
 ### Present Value Formula:
 The formula for the present value of an annuity is:
