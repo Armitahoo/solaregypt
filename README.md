@@ -14,8 +14,9 @@ After successfully filtering the data, I made the charts illustrated below to pr
 ## [Computed information about electricity](https://github.com/Armitahoo/solaregypt/blob/main/Electricity%20demand.py)
 I gathered information about [electricity price](https://www.global-climatescope.org/markets/eg/) and [subsidization](https://www.tni.org/en/article/the-imf-and-ending-energy-subsidies-in-egypt) in Egypt after making the charts. Then, I computed the total electricity cost per capita based on the total electricity produced per capita. 
 ## Gathered information about externalities 
-* Disclaimer: For simplicity, I did not take the current 35% inflation rate into account
 from [here](https://aps.aucegypt.edu/en/articles/767/the-social-impact-of-air-pollution-in-egypt-the-contradictions-of-environmental-policy-in-egypt) and [here](https://www.greenpeace.org/static/planet4-southeastasia-stateless/2020/02/21b480fa-toxic-air-report-110220.pdf) and took the information into account for total cost calculation
+
+* Disclaimer: For simplicity, I did not take the current 35% inflation rate into account
 ## [Made the heatmap](https://github.com/Armitahoo/solaregypt/blob/main/Heatmap.qgz )
 I collected data about solar power potential from Global Solar Atlas and made the illustrated heatmap below.
 
